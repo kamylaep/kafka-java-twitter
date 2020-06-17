@@ -27,4 +27,4 @@ Consume from the topic:
 $ docker exec kafka kafka-console-consumer --bootstrap-server kafka:9092 --topic twitter-in --from-beginning --property print.key=true --property print.value=true 
 ```
 
-You can use this [docker-compose.yaml](docker/docker-compose.yml) to create a single node Kafka cluster.
+You can use this [docker-compose.yaml](https://github.com/kamylaep/docker/blob/master/kafka/docker-compose.yml) to create a single node Kafka cluster.
